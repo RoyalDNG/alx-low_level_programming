@@ -2,7 +2,7 @@
 #include<unistd.h>
 
 /**
- * main - prints line
+ * main - prints and that piece of art
  *
  * return: Always 1 (Success)
  */
