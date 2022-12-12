@@ -4,7 +4,7 @@
 /**
  * main - prints and that piece of art
  *
- * return: Always 1 (Success)
+ * Return: Always 1 (Success)
  */
 
 int main(void)
