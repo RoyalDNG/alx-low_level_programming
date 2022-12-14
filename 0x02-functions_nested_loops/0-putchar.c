@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	char a[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	char a[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	int i = 0;
 
-	while(i < 9)
+	while(i < 8)
 	{
 		putchar(a[i]);
 		i++;
