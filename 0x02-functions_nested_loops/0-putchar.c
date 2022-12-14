@@ -6,6 +6,14 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	char a[9] = {'-', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	int i = 0;
+
+	while(i < 9)
+	{
+		putchar(a[i]);
+		i++;
+	}
+	putchar('\n');
 	return (0);
 }
