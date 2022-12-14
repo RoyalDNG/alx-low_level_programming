@@ -1,12 +1,10 @@
-#include "main.h"
 #include<unistd.h>
 /**
- * _putchar - print char 
- *
- * Return: 0 (Success)
- * Error, 1 is returned
+ * putchar sends characters to stdout
+ * c -  is the character bing printed
+ * On error, -1 is returned
  */
-int _putchar(char a)
+int _putchar(char c)
 {
-	return (write(1, &a, 1));
+	return (write(1, &c, 1));
 }
